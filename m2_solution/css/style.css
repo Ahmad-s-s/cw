@@ -8,6 +8,18 @@ body{
     color:#065c6f;
 }
 
+#chicken > .sec-title{
+    background-color: red;
+    color: white;
+}
+#beef > .sec-title{
+    background-color: pink;
+    color:rgb(97, 44, 44);
+}
+#sushi > .sec-title{
+    background-color: #aa4a30;
+}
+
 body > div{
     width: 48%;
     height: 48%;
