@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+body{
+    background-color: #edcfa9;
+    color:#065c6f;
+}
+
+body > div{
+    background-color: #e89f71;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+body > div:hover{
+    background-color: #f1bc31;
+    box-shadow: 10px 10px 5px #7c0a02;
+    cursor: grab;
+    transition: 1s;
+}
+
+body > div .dumm{
+    padding: 1%;
+}
+
+.menu{
+    text-align: center;
+    font-size: 48px;
+}
+
+.sec-title{
+    background-color: #aa4a30;
+    color: #edcfa9;
+    float: right;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.dumm{
+    clear: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px){
+    body > div{
+        width: 30%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        height: 50%;
+        background-color: #e89f71;
+    }
+}
+
+@media (max-width:767px){
+    body > div{
+        width: 100%;
+        height: 50%;
+        margin-top: 10px;
+        background-color: #e89f71;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px){
+    body > div{
+        width: 48%;
+        height: 48%;
+        margin: 1%;
+        background-color: #e89f71;
+    }
+    #sushi{
+        width: 100%;
+    }
+}
