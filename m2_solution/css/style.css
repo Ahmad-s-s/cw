@@ -18,6 +18,10 @@ body > div{
     border-radius: 20px;
 }
 
+#sushi{
+    width: 100%;
+}
+
 body > div:hover{
     background-color: #f1bc31;
     box-shadow: 10px 10px 5px #7c0a02;
@@ -62,6 +66,13 @@ body > div .dumm{
 
 @media (min-width:992px){
     body > div{
+        width: 30%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        height: 50%;
+        background-color: #e89f71;
+    }
+    #sushi{
         width: 30%;
         margin-left: 1.5%;
         margin-right: 1.5%;
