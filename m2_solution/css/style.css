@@ -83,10 +83,15 @@ body > div .dumm{
 
 @media (max-width:768px){
     body > div{
-        width: 100%;
+        width: 95%;
         height: 50%;
         margin-top: 10px;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
         background-color: #e89f71;
+    }
+    #sushi{
+        width: 95%;
     }
 }
 
