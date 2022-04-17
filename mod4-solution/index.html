@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Module 4 Solution Starter</title>
+    <script>
+      var names = []; // DO NOT REMOVE
+    </script>
+    <script src="SpeakHello.js"></script>
+    <script src="SpeakGoodBye.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="ball" id="ballID">
+      <h1>Module 4 Solution Starter</h1>
+      <p><strong>Hint:</strong> Open The inspect tool and go to console tab to see the result! :)</p>
+    </div>
+  </body>
+
+  <style>
+    body {
+      background-color: #fefae0;
+    }
+    h1{
+        text-align: center;
+        color: #6d6875;
+    }
+    p{
+        color: #0466c8;
+    }
+    div{
+        background-color: #e9edc9;
+        width: 500px;
+        height: 100px;
+        border:8px solid #ccd5ae ;
+        box-shadow: 8px 8px 8px #d4a373;
+    }
+  </style>
+
+  <script>
+    let ball = document.getElementById("ballID");
+
+    var myVar = setInterval(spostaDiv, 90);
+    var margin = 0;
+
+    let l = window.screen.width;
+    let w = 500;
+
+    function spostaDiv() {
+      console.log(w);
+      if (margin == w) {
+        margin = 0 + "px";
+      } else {
+        ball.style.marginLeft = margin + "px";
+      }
+      margin += 2;
+    }
+  </script>
+</html>
