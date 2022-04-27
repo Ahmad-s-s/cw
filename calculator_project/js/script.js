@@ -22,6 +22,11 @@ else {
 }
 }
 
+function history_cleaner (){
+  document.getElementById("history").innerHTML = "<p>History Cleaned ! </p>";
+}
+
+
 function history_maker(str) {
   var his = document.getElementById("history");
   his.innerHTML = his.innerHTML + "<p>" + str + "</p>";

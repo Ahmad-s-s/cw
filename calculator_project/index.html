@@ -15,7 +15,17 @@
   <body>
     <div id="history"></div>
     <div id="history-button">
-      <button id="his-but" onclick="history_shower()">History</button>
+      <table>
+        <tr>
+          <td class="history" onclick="history_shower()">History</td>
+        </tr>
+        <tr>
+          <td class="history" onclick=" history_cleaner()">Clean History</td>
+        </tr>
+      </table>
+
+      <!-- <button id="his-but" onclick="history_shower()">History</button>
+      <button id="his-c-but" onclick="history_cleaner()">Clean History</button> -->
     </div>
     <div id="calculator">
       <table>

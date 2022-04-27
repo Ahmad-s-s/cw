@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Press Start 2P", cursive;
   font-size: 4vw;
@@ -26,25 +30,13 @@ td {
   visibility: hidden;
 }
 
-#history p {
-  font-size: 1vw;
-  color: aqua;
-  margin-bottom: 00.25vw;
-  margin-left: 0.5vw;
-}
 
-#history-button{
-  width: 4.8vw;
-  height: 7.2vw;
-  position: absolute;
-  left: 65vw;
-  top: 38.2vw;
-}
 
-#his-but{
+
+/* #his-but, #his-c-but{
   font-size: 2vw;
-  padding-top: 2.8vw;
-  padding-bottom: 2.3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
   padding-left: 1vw;
   padding-right: 1vw;
   background-color: black;
@@ -53,7 +45,12 @@ td {
   border-radius: 0.4vw;
 }
 
-#his-but:hover{
+#his-c-but{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+#his-but:hover, #his-c-but:hover{
   text-shadow: #9c0005;
   text-shadow: 0.15vw 0.15vw #9c0005;
   transition: 0.5s;
@@ -62,7 +59,7 @@ td {
 #his-but:active{
   background-color: #252525;
   transition: 0.2s;
-}
+} */
 
 #calculator {
   position: absolute;
@@ -132,3 +129,41 @@ td.result:hover {
   border-radius: 12px;
 }
 /*end*/
+
+#history p {
+  font-size: 1vw;
+  color: aqua;
+  margin-bottom: 00.25vw;
+  margin-left: 0.5vw;
+}
+
+#history-button{
+  width: 4.8vw;
+  height: 7.2vw;
+  position: absolute;
+  left: 65vw;
+  top: 38.2vw;
+}
+
+.history{
+  font-size: 1vw;
+  width: 2.4vw;
+  height: 3.6vw;
+  background-color: black;
+  color: aqua;
+  border: 0.4vw solid #03045E;
+  border-radius: 0.4vw;
+}
+
+
+td.history:hover {
+  background-color: black;
+  color: aqua;
+  text-shadow: 0.15vw 0.15vw #9c0005;
+  transition: 0.5s;
+}
+
+td.history:active{
+  background-color: #252525;
+  transition: 0.2s;
+}
