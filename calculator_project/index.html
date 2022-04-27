@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      href="images/coding_computer_pc_screen_code_icon_193925.png"
+      type="image/x-icon"
+    />
+    <title>Myself</title>
+  </head>
+  <body>
+    <div id="history"></div>
+    <div id="history-button">
+      <button id="his-but" onclick="history_shower()">History</button>
+    </div>
+    <div id="calculator">
+      <table>
+        <tr>
+          <td id="display" colspan="3" class="result">0</td>
+          <td class="operator" onClick="click_handler('clear')">C</td>
+        </tr>
+        <tr>
+          <td onClick="click_handler(this.innerHTML)">7</td>
+          <td onClick="click_handler(this.innerHTML)">8</td>
+          <td onClick="click_handler(this.innerHTML)">9</td>
+          <td class="operator" onClick="click_handler('×')">×</td>
+        </tr>
+        <tr>
+          <td onClick="click_handler(this.innerHTML)">4</td>
+          <td onClick="click_handler(this.innerHTML)">5</td>
+          <td onClick="click_handler(this.innerHTML)">6</td>
+          <td class="operator" onClick="click_handler('-')">-</td>
+        </tr>
+        <tr>
+          <td onClick="click_handler(this.innerHTML)">1</td>
+          <td onClick="click_handler(this.innerHTML)">2</td>
+          <td onClick="click_handler(this.innerHTML)">3</td>
+          <td class="operator" onClick="click_handler('+')">+</td>
+        </tr>
+        <tr>
+          <td class="operator" onClick="click_handler('÷')">÷</td>
+          <td onClick="click_handler(this.innerHTML)">0</td>
+          <td class="operator" onClick="click_handler(this.innerHTML)">.</td>
+          <td class="operator" onClick="click_handler('=')">=</td>
+        </tr>
+      </table>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

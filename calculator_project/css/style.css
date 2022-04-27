@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  font-family: "Press Start 2P", cursive;
+  font-size: 4vw;
+  background-color: #112d4e;
+  color: #dbe2ef;
+}
+
+table,
+tr,
+td {
+  border: 0.4vw solid #f9f7f7;
+  border-collapse: collapse;
+}
+
+#history{
+  position: absolute;
+  top: 8vw;
+  left: 15vw;
+  width: 20vw;
+  height: 38vw;
+  background-color: black;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+#history p {
+  font-size: 1vw;
+  color: aqua;
+  margin-bottom: 00.25vw;
+  margin-left: 0.5vw;
+}
+
+#history-button{
+  width: 4.8vw;
+  height: 7.2vw;
+  position: absolute;
+  left: 65vw;
+  top: 38.2vw;
+}
+
+#his-but{
+  font-size: 2vw;
+  padding-top: 2.8vw;
+  padding-bottom: 2.3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: black;
+  color: aqua;
+  border: 0.4vw solid #03045E;
+  border-radius: 0.4vw;
+}
+
+#his-but:hover{
+  text-shadow: #9c0005;
+  text-shadow: 0.15vw 0.15vw #9c0005;
+  transition: 0.5s;
+}
+
+#his-but:active{
+  background-color: #252525;
+  transition: 0.2s;
+}
+
+#calculator {
+  position: absolute;
+  left: 38vw;
+  top: 8vw;
+}
+
+tr,
+td {
+  padding: 0vw 0.7vw;
+  text-align: center;
+  vertical-align: center;
+  background-color: #3f72af;
+}
+
+td {
+  width: 4.8vw;
+  height: 7.2vw;
+}
+
+td.result {
+  text-align: left;
+}
+
+
+td:hover {
+  background-color: #518cd3;
+  color: wheat;
+  text-shadow: 0.15vw 0.3vw red;
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: black;
+}
+
+td.result:hover {
+  background-color: #4e9525;
+  color: #2e5a1c;
+  text-shadow: 0.15vw 0.25vw #99f3bd;
+  cursor: not-allowed;
+}
+
+.operator {
+  font-family: cursive;
+  font-size: 5vw;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 0.8vw;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+  background: #03045E; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background: #9b2226; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9c0005; 
+  border-radius: 12px;
+}
+/*end*/
