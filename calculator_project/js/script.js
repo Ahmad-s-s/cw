@@ -74,6 +74,9 @@ function click_handler(value) {
     result_printer(opertor + ": ");
     turn = 2;
   } else if (value == "=") {
+    if (num1 == '') {num1 = 0;}
+    if (num2 == '') {num2 = 0;}
+    if (opertor == null) {opertor = '+';}
     var result = calculate(parseFloat(num1), parseFloat(num2), opertor);
     history_maker(num1 + opertor + num2 + "=" + result);
     num1 = String(result);
@@ -102,3 +105,7 @@ function click_handler(value) {
   }
 }
 
+
+function helper () {
+  
+}
